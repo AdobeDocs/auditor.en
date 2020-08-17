@@ -73,7 +73,7 @@ Using the default Include filter provides a broad range for an audit to crawl. T
 
 The Include Filters can contain exact URLs, partial URLs, or regular expressions. For example, if the Starting URL is [!DNL http://mysite.com], the following pages would be eligible to be scanned by default (note the bold characters):
 
-```
+```html
 http://mysite.com
 http
 <b>s</b>://mysite.com
@@ -85,9 +85,7 @@ http://
 <b>my</b>.mysite.com/products/products_and_services.html
 ```
 
-For complex URL patterns, use [ObservePoint's regular expression tester](http://regex.observepoint.com/).
-
-Also refer to the [Common Regular Expressions for ObservePoint](https://help.observepoint.com/articles/2872116-common-regular-expressions-for-observepoint) document for common pattern matching use cases.
+For complex URL patterns, use [ObservePoint's regular expression tester](https://regex.observepoint.com/).
 
 ## Exclude filters {#section-00aa5e10c878473b91ba0844bebe7ca9}
 
@@ -103,4 +101,4 @@ While creating your audit, click **[!UICONTROL Test Advanced Filters]**. Enter y
 
 ## ObservePoint documentation {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-This article was developed in cooperation with ObservePoint. For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/articles/2872121-include-and-exclude-filters). 
+This article was developed in cooperation with ObservePoint. For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/. 

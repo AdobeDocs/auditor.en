@@ -25,7 +25,7 @@ Auditor's consistency tests look for inconsistencies across all scanned pages. T
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - Consistent code version </b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> Additional information</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - Consistent code version </b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="html" scope="external"> Additional information</a> </p> </td> 
    <td colname="col2"> <p> More than one version of the Analytics code was found. </p> </td> 
    <td colname="col3"> <p>Replace all instances of Analytics with the current version. </p> </td> 
   </tr> 

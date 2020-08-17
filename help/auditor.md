@@ -35,4 +35,4 @@ If you need help getting started, have questions, or would like to suggest or vo
 
 ## Release information {#section-be3e331a123d40f185aa59f23f69355e}
 
-For information about the most recent release, see [Auditor Release Notes](release-notes.md#topic-8fa9e41bc3a54240b1873cebe36b75b1). 
+For information about the most recent release, see [Auditor Release Notes](release-notes.md). 
