@@ -25,7 +25,7 @@ If desired, use the link on the bottom of the page to access a free, full-featur
    The name can be up to 250 characters long. 
 1. (Required) Specify the starting URL.
 
-   The protocol is required when specifying the starting URL. The starting URL is the page where the audit begins crawling. Once started, Auditor crawls up to 500 pages, following links that begin at the starting URL. See [Include and Exclude Filters](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257) for more information. The starting URL can be up to 250 characters long.
+   The protocol is required when specifying the starting URL. The starting URL is the page where the audit begins crawling. Once started, Auditor crawls up to 500 pages, following links that begin at the starting URL. See [Include and Exclude Filters](../create-audit/filters.md) for more information. The starting URL can be up to 250 characters long.
 
    >[!NOTE]
    >
@@ -48,7 +48,7 @@ If desired, use the link on the bottom of the page to access a free, full-featur
 
    The include filters are limited to 1,000 characters per line.
 
-   See [Include List](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f) for more information. 
+   See [Include List](../create-audit/filters.md) for more information. 
 1. Specify Exclude Filters.
 
    The Exclude List prevents URLs from being audited. Use exact URLs, partial URLs, or regular expressions, just as you would in the Include List.
@@ -57,7 +57,7 @@ If desired, use the link on the bottom of the page to access a free, full-featur
 
    The exclude filters are limited to 1,000 characters per line.
 
-   See [Exclude List](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9) for more information. 
+   See [Exclude List](../create-audit/filters.md) for more information. 
 1. (Optional) If desired, you can test the include and exclude filters, and test your URLs.
 
    Enter the filters and URLs, then click **[!UICONTROL Apply]** to run the test.

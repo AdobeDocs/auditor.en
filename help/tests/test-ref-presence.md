@@ -72,7 +72,7 @@ Auditor evaluates whether the tag exists, and whether it's in the right place in
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Experience Cloud ID Service - Cookie presence</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Additional information</a> </p> </td> 
+    </draft-comment> <p><b>Experience Cloud ID Service - Cookie presence</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html" format="html" scope="external"> Additional information</a> </p> </td> 
    <td colname="col2"> <p> The <span class="codeph"> AMCV_</span> cookie was not found. You must instantiate a visitor object from the <span class="codeph"> VisitorAPI.js</span> code. </p> </td> 
    <td colname="col3"> <p> If this is a DTM implementation, verify that the AdobeOrg ID is properly entered into the MCID tool. </p> </td> 
   </tr> 

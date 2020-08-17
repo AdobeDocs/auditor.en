@@ -113,7 +113,7 @@ Auditor evaluates the tags against other rules and recommended best practices.
     <td colname="col3"> <p>Make sure there is only one Analytics tag on the page. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - Latest version</b> </p> <p>Weight: 3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/appmeasurement/release" format="https" scope="external"> Additional information</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - Latest version</b> </p> <p>Weight: 3 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Additional information</a> </p> </td> 
     <td colname="col2"> <p> Your pages are not running the latest version of the Analytics code library. Code libraries that power Experience Cloud technologies are constantly being updated and tweaked in order to take advantage of performance improvements and provide the latest features. Returns 0 when no analytics code is found web page. </p> </td>       
     <td colname="col3"> <p>Install the latest version of the Analytics library. </p> </td> 
    </tr> 
@@ -168,7 +168,7 @@ Auditor evaluates whether the tags are consistent across URLs.
   </thead>
   <tbody> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - Consistent code version </b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> Additional information</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - Consistent code version </b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="html" scope="external"> Additional information</a> </p> </td> 
     <td colname="col2"> <p> More than one version of the Analytics code was found. </p> </td> 
     <td colname="col3"> <p>Replace all instances of Analytics with the current version. </p> </td> 
    </tr> 
@@ -232,7 +232,7 @@ Auditor evaluates whether the tag exists, and whether it's in the right place in
     <td colname="col3"> <p>Install the DTM <span class="codeph"> pageBottom</span> call on every page. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Experience Cloud ID Service - Cookie presence</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Additional information</a> </p> </td> 
+    <td colname="col1"> <p><b>Experience Cloud ID Service - Cookie presence</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html" format="html" scope="external"> Additional information</a> </p> </td> 
     <td colname="col2"> <p> The <span class="codeph"> AMCV_</span> cookie was not found. You must instantiate a visitor object from the <span class="codeph"> VisitorAPI.js</span> code. </p> </td> 
     <td colname="col3"> <p> If this is a DTM implementation, verify that the AdobeOrg ID is properly entered into the MCID tool. </p> </td> 
    </tr> 

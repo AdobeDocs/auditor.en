@@ -41,10 +41,10 @@ The first time you use Auditor, you must complete and accept the Auditor agreeme
 
    ![](assets/config.png)
 
-   For a description of all the configuration options, see [Create a New Audit](../create-audit/create-new-audit.md#task-6d157f80e5264642b877c2820b1d077d). 
+   For a description of all the configuration options, see [Create a New Audit](../create-audit/create-new-audit.md). 
 1. View your report.
 
-   When you receive the email letting you know the scan is complete, click on the link to [view your report](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869) and start understanding opportunities to improve your implementation and gain more value from your Adobe solutions.
+   When you receive the email letting you know the scan is complete, click on the link to [view your report](../reports/scorecard.md) and start understanding opportunities to improve your implementation and gain more value from your Adobe solutions.
 
    You can also click the name of the audit in the [Auditor page](../get-started/audit-list.md) to see the status of the audit and to view the report after the audit is complete.
 
