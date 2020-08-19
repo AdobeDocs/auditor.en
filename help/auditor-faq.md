@@ -1,8 +1,8 @@
 ---
-description: null
-seo-description: null
+description: Common questions and answers about Adobe Experience Platform Auditor
+seo-description: Common questions and answers about Adobe Experience Platform Auditor
 seo-title: Auditor FAQ
-title: Auditor FAQ
+title: Adobe Experience Platform Auditor FAQ
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
 ---
 

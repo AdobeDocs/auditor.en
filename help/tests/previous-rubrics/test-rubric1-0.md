@@ -1,6 +1,6 @@
 ---
-description: null
-seo-description: null
+description: information about the Adobe Auditor tests
+seo-description: information about the Adobe Auditor tests
 seo-title: Test rubric 0.0.8
 title: Test rubric 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
