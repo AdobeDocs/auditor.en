@@ -51,9 +51,9 @@ Alerts show issues you should be aware of, but that don't affect your score.
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - pageBottom callback placement</b> </p> <p>Weight: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Additional information</a> </p> 
-     <draft-comment>
+     <!--
        TEa9df69942f404055a64262889c8b21d3 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> Dynamic Tag Management requires the<span class="codeph"> _satellite.pageBottom()</span> function. </p> <p>It is best practice that the tag be the <i>last</i> tag in the <span class="codeph"> &lt;body&gt;</span>. If it's found within the <span class="codeph"> &lt;body&gt;</span> tag, it has a chance of functioning, but as it is not best practice, it could function incorrectly or with unexpected or undesired results. </p> </td> 
     <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper DTM functionality. </p> </td> 
    </tr> 
@@ -248,9 +248,9 @@ Auditor evaluates whether the tag exists, and whether it's in the right place in
    </tr> 
    <tr> 
     <td colname="col1"> <p><b> Target - Library loaded in &lt;head&gt;</b> </p> <p>Weight: 4 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html" format="html" scope="external"> Additional information</a> </p> 
-     <draft-comment>
+     <!--
        TE61c380082a4b4706b28a84aa047599a7 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> The Target library should be loaded in the <span class="codeph"> &lt;head&gt;</span> tag. </p> </td> 
     <td colname="col3"> <p> Check to be sure that the Target library is loaded in the <span class="codeph"> &lt;head&gt;</span> tag. </p> </td> 
    </tr> 
