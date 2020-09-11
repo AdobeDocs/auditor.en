@@ -4,6 +4,7 @@ product: auditor
 sub-product: auditor
 audience: end-user
 user-guide-title: Experience Platform Auditor Help
+breadcrumb-title: Auditor Guide
 ---
 
 # Experience Platform Auditor Help {#using}
