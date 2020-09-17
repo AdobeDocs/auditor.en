@@ -6,6 +6,7 @@ audience: end-user
 user-guide-title: Experience Platform Auditor Help
 user-guide-description: Generate a report that grades your Adobe Experience Cloud implementation, with pointers on how to improve it.
 breadcrumb-title: Auditor Guide
+breadcrumb-url: /docs/auditor/using/overview.html
 ---
 
 # Experience Platform Auditor Help {#using}
