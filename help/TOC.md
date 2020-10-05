@@ -14,7 +14,6 @@ breadcrumb-url: /docs/auditor/using/overview.html
 + [Overview](overview.md)
 + Getting started {#get-started}
   + [Getting started](get-started/getting-started.md)
-  + [Auditor videos](get-started/videos.md)
   + [Audit List page](get-started/audit-list.md)
 + Create an audit {#create-audit}
   + [Create a new audit](create-audit/create-new-audit.md)
