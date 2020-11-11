@@ -20,7 +20,7 @@ Include filters and Exclude filters provide guidelines for audits. By leaving th
 
 By applying Include filters, Exclude filters, or a combination of both, instructions regarding what links an audit can crawl are able to be given.
 
-Any item in the Include Filters field restricts the scan to only the pages that match that item. Any item in an Exclude Filters field prevents any pages that match that item from being scanned.
+Any item in the [!UICONTROL Include Filters] field restricts the scan to only the pages that match that item. Any item in an [!UICONTROL Exclude Filters] field prevents any pages that match that item from being scanned.
 
 The Include and Exclude filters can be full URLs, partial URLs, or regular expressions that match a valid page.
 
@@ -46,7 +46,7 @@ The Include and Exclude filters can be full URLs, partial URLs, or regular expre
 
 ## Starting URL {#section-ccb46abcd96f4a8ab171245015d2b724}
 
-Auditor requires a single page for the Starting URL. The Starting URL is always visited before any other URLs. Any links discovered from the starting page are eligible to be visited, subject to the Include and Exclude filters. If an Exclude item matches a Starting URL, it will be ignored.
+Adobe Experience Platform Auditor requires a single page for the Starting URL. The Starting URL is always visited before any other URLs. Any links discovered from the starting page are eligible to be visited, subject to the Include and Exclude filters. If an Exclude item matches a Starting URL, it will be ignored.
 
 ## Include filters {#section-7626060a56a24b658f8c05f031ac3f5f}
 
@@ -69,9 +69,9 @@ By default, an audit will scan all subdomains of the starting URL. Unless explic
 
 This makes any link found on the Starting URL page eligible for visiting. It matches any page on any subdomain from the Starting URL.
 
-Using the default Include filter provides a broad range for an audit to crawl. To home in on certain sections or pages, provide specific directions to your audit by adding filters in this box. In that case, replace the default value with the directories that you want the audit to scan. You can also use include filters to perform cross-domain auditing where you need to start the audit on one domain and end on another. To do this, type in the domains you want to traverse. In any case, for any Include Filter URLs to be found, they must be discovered on a page that is audited.
+Using the default Include filter provides a broad range for an audit to crawl. To home in on certain sections or pages, provide specific directions to your audit by adding filters in this box. In that case, replace the default value with the directories that you want the audit to scan. You can also use Include filters to perform cross-domain auditing where you need to start the audit on one domain and end on another. To do this, type in the domains you want to traverse. In any case, for any Include filter URLs to be found, they must be discovered on a page that is audited.
 
-The Include Filters can contain exact URLs, partial URLs, or regular expressions. For example, if the Starting URL is [!DNL http://mysite.com], the following pages would be eligible to be scanned by default (note the bold characters):
+The Include filters can contain exact URLs, partial URLs, or regular expressions. For example, if the Starting URL is [!DNL http://mysite.com], the following pages would be eligible to be scanned by default (note the bold characters):
 
 ```html
 http://mysite.com
@@ -93,7 +93,7 @@ The Exclude filters prevent URLs from being audited. You can use exact URLs, par
 
 ## Testing filters and URLs {#section-3cfa125b1756411395a64701e128efa0}
 
-You can test your filters and URLs within Auditor.
+You can test your filters and URLs within Platform Auditor.
 
 While creating your audit, click **[!UICONTROL Test Advanced Filters]**. Enter your filters and URLs, then click **[!UICONTROL Apply]**.
 

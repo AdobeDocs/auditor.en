@@ -1,6 +1,6 @@
 ---
-description: This reference provides more information about the tests Auditor performs.
-seo-description: This reference provides more information about the tests Auditor performs.
+description: This reference provides more information about the tests Adobe Experience Platform Auditor performs.
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs.
 seo-title: Test reference
 title: Test reference
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
@@ -9,7 +9,7 @@ uuid: f1d0769e-a2bd-4cec-acd1-146793644895
 
 # Test reference{#test-reference}
 
-This reference provides more information about the tests Auditor performs.
+This reference provides more information about the tests Adobe Experience Platform Auditor performs.
 
 **Current test rubric version:** 1.0.5
 
@@ -28,7 +28,7 @@ It is **highly recommended** that you fix any level 4 or 5 results.
 
 It is **recommended** that you fix any level 1 to 3 results.
 
-## Which Adobe technologies does Auditor grade? {#section-52833b71c05448aaae508e6070a387f5}
+## Which Adobe technologies does Platform Auditor grade? {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP 
 * Advertising Cloud Search 
@@ -42,4 +42,4 @@ The following Adobe solutions are not currently included in the test rubric. Sup
 * Advertising Cloud Creative 
 * Audience Manager 
 * Campaign 
-* Launch
+* Adobe Experience Platform Launch

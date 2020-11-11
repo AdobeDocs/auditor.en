@@ -1,6 +1,6 @@
 ---
-description: Get started with Auditor
-seo-description: Get started with Auditor
+description: Get started with Adobe Experience Platform Auditor
+seo-description: Get started with Adobe Experience Platform Auditor
 seo-title: Getting started
 title: Getting started
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
@@ -15,7 +15,7 @@ uuid: 999e0142-5a64-4202-ae09-58d22438ded7
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-The first time you use Auditor, you must complete and accept the Auditor agreement. Auditor has been developed as a cooperative effort between Adobe and ObservePoint. Auditor users may use limited ObservePoint functionality for no additional cost. To use Auditor, you must opt-in to communications from ObservePoint. 
+The first time you use [!DNL Adobe Experience Platform Auditor], you must complete and accept the [!DNL Platform Auditor] agreement. [!DNL Platform Auditor] has been developed as a cooperative effort between [!DNL Adobe] and [!DNL ObservePoint]. Platform Auditor users may use limited ObservePoint functionality for no additional cost. To use Platform Auditor, you must opt-in to communications from ObservePoint. 
 
 ## Running your first scan {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -23,9 +23,9 @@ The first time you use Auditor, you must complete and accept the Auditor agreeme
 
    ![](assets/activate.png)
 
-1. Select Auditor and accept the Terms of Use.
+1. Select **[!UICONTROL Auditor]** and accept the Terms of Use.
 
-   The Auditor page gives you a dashboard of previous scans, along with the option of running a new scan.
+   The Platform Auditor page gives you a dashboard of previous scans, along with the option of running a new scan.
 
    ![](assets/home.png)
 

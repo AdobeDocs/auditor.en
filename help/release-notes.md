@@ -1,12 +1,12 @@
 ---
-description: Auditor Release Notes
+description: Adobe Experience Platform Auditor Release Notes
 seo-description: Adobe Experience Platform Auditor Release Notes
-seo-title: Auditor release notes
-title: Auditor release notes
+seo-title: Adobe Experience Platform Auditor release notes
+title: Adobe Experience Platform Auditor release notes
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
 ---
 
-# Auditor release notes{#auditor-release-notes}
+# Adobe Experience Platform Auditor release notes{#auditor-release-notes}
 
 ## February 5, 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
 
@@ -22,7 +22,7 @@ The maximum number of pages allowed in a scan has been increased from 100 to 500
 
 **New features**
 
-You can now cancel a currently running audit from the Auditor page, Card view, or when attempting to create a new audit.
+You can now cancel a currently running audit from the Platform Auditor page, Card view, or when attempting to create a new audit.
 
 ## June 4, 2018 {#section-0747f36a1f4f46638b2c6bf182de9864}
 
@@ -52,18 +52,18 @@ Ensure that the Administration link is shown in the shell when a user is an admi
 
 >[!NOTE]
 >
->Access to Auditor is being granted in a rolling fashion. All customers will have access by the end of April, 2018.
+>Access to Platform Auditor is being granted in a rolling fashion. All customers will have access by the end of April, 2018.
 
-Adobe Experience Platform Auditor grades Adobe Experience Cloud implementations recommends improvements. Auditor helps you get more value from your Adobe products, individually and collectively.
+Platform Auditor grades Adobe Experience Cloud implementations recommends improvements. Platform Auditor helps you get more value from your Adobe products, individually and collectively.
 
-With Auditor, you can:
+With Platform Auditor, you can:
 
 * **Scan** Scan 100 web pages at a time for Adobe technology. Use advanced filters to include or exclude any pages as needed. You may run one audit at a time and an unlimited number of audits. 
 
 * **Understand** Receive a report that scores your Adobe implementations based on tag presence, configuration, and consistency. 
 
-* **Improve** Get recommendations on how to upgrade your implementation and get the full value of your Adobe investment. Auditor tells you exactly how an implementation can be improved, indicates the webpage where the issue was found, and then gives guidance on how to fix it.
+* **Improve** Get recommendations on how to upgrade your implementation and get the full value of your Adobe investment. Platform Auditor tells you exactly how an implementation can be improved, indicates the webpage where the issue was found, and then gives guidance on how to fix it.
 
-By empowering you to troubleshoot and correct your own implementations, Auditor gives you greater control over your implementation tags and, therefore, your data. This reduces the need to contact Customer Care with questions about your implementation tags.
+By empowering you to troubleshoot and correct your own implementations, Platform Auditor gives you greater control over your implementation tags and, therefore, your data. This reduces the need to contact Customer Care with questions about your implementation tags.
 
-Auditor has been developed as a cooperative effort between Adobe and ObservePoint. Auditor users may use limited ObservePoint functionality for no additional cost. To use Auditor, you must opt-in to communications from ObservePoint. 
+Platform Auditor has been developed as a cooperative effort between Adobe and ObservePoint. Platform Auditor users may use limited ObservePoint functionality for no additional cost. To use Platform Auditor, you must opt-in to communications from ObservePoint. 

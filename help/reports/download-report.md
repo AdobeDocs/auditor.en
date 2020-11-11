@@ -12,7 +12,7 @@ The report shows whether each URL passes or fails.
 
 The report can be viewed on the Scorecard page in the user interface. You can also download the report: 
 
-1. From the Auditor list or a scorecard, click **[!UICONTROL Download Report]**.
+1. From the Adobe Experience Platform Auditor list or a scorecard, click **[!UICONTROL Download Report]**.
 
    You can download the report as a spreadsheet or PDF file. 
 1. Specify whether to open or save your file.

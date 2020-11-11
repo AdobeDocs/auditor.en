@@ -1,6 +1,6 @@
 ---
-description: This reference provides more information about the tests Auditor performs for tag consistency.
-seo-description: This reference provides more information about the tests Auditor performs for tag consistency.
+description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag consistency.
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag consistency.
 seo-title: Tag consistency
 title: Tag consistency
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
@@ -8,9 +8,9 @@ uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
 
 # Tag consistency
 
-This reference provides more information about the tests Auditor performs for tag consistency.
+This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag consistency.
 
-Auditor's consistency tests look for inconsistencies across all scanned pages. These are values or configurations that should be the same across all pages on the site to ensure accurate data collection.
+Platform Auditor's consistency tests look for inconsistencies across all scanned pages. These are values or configurations that should be the same across all pages on the site to ensure accurate data collection.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 

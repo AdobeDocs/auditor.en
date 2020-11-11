@@ -1,11 +1,11 @@
 ---
 cloud: experience-cloud
-product: auditor
-sub-product: auditor
+product: adobe experience platform auditor
+sub-product: adobe experience platform auditor
 audience: end-user
 user-guide-title: Experience Platform Auditor Help
 user-guide-description: Generate a report that grades your Adobe Experience Cloud implementation, with pointers on how to improve it.
-breadcrumb-title: Auditor Guide
+breadcrumb-title: Platform Auditor Guide
 breadcrumb-url: /docs/auditor/using/overview.html
 ---
 
@@ -30,5 +30,5 @@ breadcrumb-url: /docs/auditor/using/overview.html
   + Previous test rubrics{#previous-rubrics}
     + [Test rubric 1.0.1](tests/previous-rubrics/test-rubric1-0-1.md)
     + [Test rubric 0.0.8](tests/previous-rubrics/test-rubric1-0.md)
-+ [Auditor FAQ](auditor-faq.md)
-+ [Auditor release notes](release-notes.md)
++ [Platform Auditor FAQ](auditor-faq.md)
++ [Platform Auditor release notes](release-notes.md)

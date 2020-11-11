@@ -10,7 +10,7 @@ uuid: a765cd6a-d3d6-4438-9621-d7899385a518
 
 After you run a test, the scorecard shows information about an audit.
 
-Click the name of your audit on the Auditor page to view the results of your test.
+Click the name of your audit on the Adobe Experience Platform Auditor page to view the results of your test.
 
 ![](assets/report.png)
 
@@ -43,7 +43,7 @@ The scorecard lists any level 4 or 5 issues as **highly recommended** that you f
 
 The scorecard lists any level 1 to 3 issues as **recommended** that you fix.
 
-Click **[!UICONTROL Download the Report]** to download either an Excel or PDF file containing the information reported by the audit.
+Click **[!UICONTROL Download the Report]** to download either an [!DNL Excel] or PDF file containing the information reported by the audit.
 
 In addition to the score for each category, the scorecard lists any fixes that are recommended or highly recommended, as well as the items that passed the test. Click on each issue to see additional details in the box on the right. Click again to drill down further and see recommendations of how to fix the issue. The following shows the details for a Recommended issue in the scorecard shown above:
 
@@ -55,4 +55,4 @@ Click the categories across the top of the screen to see the issues found in eac
 
 You can view lists of the URLS that passed or failed your test.
 
-From the Scorecard, click a test name or the **[!UICONTROL See All]** link under each category heading. This takes you to the details of the tests. For each test, you can see the test description and a list of any urls that failed and passed. This information is also included in downloaded reports. 
+From the scorecard, click a test name or the **[!UICONTROL See All]** link under each category heading. This takes you to the details of the tests. For each test, you can see the test description and a list of any urls that failed and passed. This information is also included in downloaded reports. 
