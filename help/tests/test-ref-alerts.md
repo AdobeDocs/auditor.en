@@ -1,6 +1,6 @@
 ---
-description: This reference provides more information about the alerts Auditor displays for tests.
-seo-description: This reference provides more information about the alerts Auditor displays for tests.
+description: This reference provides more information about the alerts Adobe Experience Platform Auditor displays for tests.
+seo-description: This reference provides more information about the alerts Adobe Experience Platform Auditor displays for tests.
 seo-title: Alerts
 title: Alerts
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
@@ -9,7 +9,7 @@ uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
 
 # Alerts{#alerts}
 
-This reference provides more information about the alerts Auditor displays for tests.
+This reference provides more information about the alerts Adobe Experience Platform Auditor displays for tests.
 
 Alerts show issues you should be aware of, but that don't affect your score. These are best practice recommendations that, in some cases, may not apply to your implementation.
 
@@ -28,7 +28,7 @@ Alerts show issues you should be aware of, but that don't affect your score. The
       1.0.1 
     --> <p><b>Advertising Cloud - Correct Conversion Tag Implemented</b> </p> <p>Weight: 0 </p> </td> 
    <td colname="col2"> <p>Check whether the correct conversion tag is used. </p> <p> <p>Warning:  Using the deprecated TubeMogul conversion tags can result in data loss. </p> </p> </td> 
-   <td colname="col3"> <p>Upgrade your conversion pixels to the new Advertising Cloud image-only conversion tags. </p> <p>This can be most easily accomplished with the Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Upgrade your conversion pixels to the new Advertising Cloud image-only conversion tags. </p> <p>This can be most easily accomplished with the Advertising Cloud extension for Adobe Experience Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -36,7 +36,7 @@ Alerts show issues you should be aware of, but that don't affect your score. The
       1.0.1 
     --> <p><b>Advertising Cloud - Correct JS Tag Used</b> </p> <p>Weight: 0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud should use latest JavaScript tags. </p> </td> 
-   <td colname="col3"> <p>Upgrade your Advertising Cloud JavaScript to the latest version. Using the deprecated JavaScript versions can result in lost functionality. </p> <p>This can be accomplished more easily through the use of the Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Upgrade your Advertising Cloud JavaScript to the latest version. Using the deprecated JavaScript versions can result in lost functionality. </p> <p>This can be accomplished more easily through the use of the Advertising Cloud extension for Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -49,7 +49,7 @@ Alerts show issues you should be aware of, but that don't affect your score. The
       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Upgrade your Advertising Cloud pixels to the new Advertising Cloud image-only tags, which ensure you are taking advantage of the full Advertising Cloud functionality. </p> <p>This can be most easily accomplished with the Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Upgrade your Advertising Cloud pixels to the new Advertising Cloud image-only tags, which ensure you are taking advantage of the full Advertising Cloud functionality. </p> <p>This can be most easily accomplished with the Advertising Cloud extension for Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -57,7 +57,7 @@ Alerts show issues you should be aware of, but that don't affect your score. The
       1.0.1 
     --> <p><b>Advertising Cloud - Segment Pixels DSP Syncing Enabled</b> </p> <p>Weight: 0 </p> </td> 
    <td colname="col2"> <p>Check whether the TubeMogul segment pixel contains a DSP Syncing setting, and recommend that the setting be added to the pixel. </p> <p>The DSP Syncing setting is determined by the use of a query string parameter, so </p> <p>IF the tag is being fired to<span class="codeph"> ("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> OR <span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> OR <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>AND the tag contains the URL parameter <span class="codeph"> "sid=")</span> </p> <p>THEN check to see if the URL parameter <span class="codeph"> "cs=0"</span> or<span class="codeph"> "cs=1"</span> exists, and if not recommend that <span class="codeph"> "cs=1"</span> be added to those pixels so that the audience match rates can improve. </p> </td> 
-   <td colname="col3"> <p> Add the URL parameter <span class="codeph"> "cs=1"</span> to your Advertising Cloud pixels so that DSP Syncing can occur, which increases audience match rates. </p> <p>This can most easily be accomplished with the Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p> Add the URL parameter <span class="codeph"> "cs=1"</span> to your Advertising Cloud pixels so that DSP Syncing can occur, which increases audience match rates. </p> <p>This can most easily be accomplished with the Advertising Cloud extension for Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -94,24 +94,24 @@ Alerts show issues you should be aware of, but that don't affect your score. The
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>Launch should have a <span class="codeph"> pageBottom </span>callback function defined last in the body of the page if synchronously deployed. </p> <p> <p>Note: It is best practice that the tag be the <i>last</i> tag in the <span class="codeph"> &lt;body&gt;</span>. If it's found within the <span class="codeph"> &lt;body&gt;</span> tag, it has a chance of functioning, but as it is not best practice, it could function incorrectly or with unexpected or undesired results. </p> </p> </td> 
-   <td colname="col3"> <p>Launch requires the <span class="codeph"> _satellite.pageBottom()</span> function for synchronous deployments. Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Launch functionality. </p> </td> 
+   <td colname="col2"> <p>Platform Launch should have a <span class="codeph"> pageBottom </span>callback function defined last in the body of the page if synchronously deployed. </p> <p> <p>Note: It is best practice that the tag be the <i>last</i> tag in the <span class="codeph"> &lt;body&gt;</span>. If it's found within the <span class="codeph"> &lt;body&gt;</span> tag, it has a chance of functioning, but as it is not best practice, it could function incorrectly or with unexpected or undesired results. </p> </p> </td> 
+   <td colname="col3"> <p>Platform Launch requires the <span class="codeph"> _satellite.pageBottom()</span> function for synchronous deployments. Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch - Self-Hosted</b> </p> <p>Weight: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Getting started with Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Launch asynchronous deployment</a> </p> </td> 
-   <td colname="col2"> <p>The Launch library is being hosted on Adobe's Akamai instance at <span class="filepath"> assets.adobedtm.com</span>. </p> <p>Self-hosting is the recommended approach for loading Launch because it provides greater control of website performance through cache control, reducing third-party script dependencies, and greater control of the publishing process. The Launch libraries can be hosted and managed through your own web hosting or CDN. </p> </td> 
-   <td colname="col3"> <p>Although Launch hosting via the Akamai CDN works in most cases, it is recommended that self-hosting be implemented as the first step in improving page performance. </p> </td> 
+    --> <p><b>Launch - Self-Hosted</b> </p> <p>Weight: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Getting started with Adobe Experience Platform Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Platform Launch asynchronous deployment</a> </p> </td> 
+   <td colname="col2"> <p>The Platform Launch library is being hosted on Adobe's Akamai instance at <span class="filepath"> assets.adobedtm.com</span>. </p> <p>Self-hosting is the recommended approach for loading Platform Launch because it provides greater control of website performance through cache control, reducing third-party script dependencies, and greater control of the publishing process. The Platform Launch libraries can be hosted and managed through your own web hosting or CDN. </p> </td> 
+   <td colname="col3"> <p>Although Platform Launch hosting via the Akamai CDN works in most cases, it is recommended that self-hosting be implemented as the first step in improving page performance. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - should be asynchronously deployed</b> </p> <p>Weight: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Additional information</a> </p> </td> 
-   <td colname="col2"> <p>Launch should be asynchronously deployed for optimal performance. </p> </td> 
-   <td colname="col3"> <p>Include the async parameter in the inline script to ensure proper async Launch functionality </p> </td> 
+   <td colname="col2"> <p>Platform Launch should be asynchronously deployed for optimal performance. </p> </td> 
+   <td colname="col3"> <p>Include the async parameter in the inline script to ensure proper async Platform Launch functionality </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 

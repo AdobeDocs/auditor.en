@@ -1,6 +1,6 @@
 ---
-description: This reference provides more information about the tests Auditor performs for configuration.
-seo-description: This reference provides more information about the tests Auditor performs for configuration.
+description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for configuration.
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for configuration.
 seo-title: Configuration
 title: Configuration
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
@@ -8,9 +8,9 @@ uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
 
 # Configuration
 
-This reference provides more information about the tests Auditor performs for configuration.
+This reference provides more information about the tests Adobe Experience Platform Auditor performs for configuration.
 
-Configuration tests scan for specific settings, values, or potential conflicts in your implementation. Auditor evaluates the tags against other rules and recommended best practices.
+Configuration tests scan for specific settings, values, or potential conflicts in your implementation. Platform Auditor evaluates the tags against other rules and recommended best practices.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -90,8 +90,8 @@ Configuration tests scan for specific settings, values, or potential conflicts i
     <!--
       1.0.1 
     --> <p><b>Launch - Latest Version</b> </p> <p>Weight: 2 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Additional information</a> </p> </td> 
-   <td colname="col2"> <p>These pages are not running the latest version of the Launch code library (Turbine). Code libraries that power Experience Cloud technologies are constantly being updated and tweaked in order to take advantage of performance improvements and provide the latest features. </p> </td> 
-   <td colname="col3"> <p> Update the Launch library by rebuilding and publishing the Launch library. </p> </td> 
+   <td colname="col2"> <p>These pages are not running the latest version of the Platform Launch code library (Turbine). Code libraries that power Experience Cloud technologies are constantly being updated and tweaked in order to take advantage of performance improvements and provide the latest features. </p> </td> 
+   <td colname="col3"> <p> Update the Platform Launch library by rebuilding and publishing the Platform Launch library. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 

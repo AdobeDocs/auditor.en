@@ -1,8 +1,8 @@
 ---
-description: Create a new audit in Auditor
-seo-description: Create a new audit in Auditor
-seo-title: Create a new audit in Auditor
-title: Create a new audit in Auditor
+description: Create a new audit in Adobe Experience Platform Auditor
+seo-description: Create a new audit in Adobe Experience Platform Auditor
+seo-title: Create a new audit in Adobe Experience Platform Auditor
+title: Create a new audit in Adobe Experience Platform Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
 ---
 
@@ -25,7 +25,7 @@ If desired, use the link on the bottom of the page to access a free, full-featur
    The name can be up to 250 characters long. 
 1. (Required) Specify the starting URL.
 
-   The protocol is required when specifying the starting URL. The starting URL is the page where the audit begins crawling. Once started, Auditor crawls up to 500 pages, following links that begin at the starting URL. See [Include and Exclude Filters](../create-audit/filters.md) for more information. The starting URL can be up to 250 characters long.
+   The protocol is required when specifying the starting URL. The starting URL is the page where the audit begins crawling. Once started, Adobe Experience Platform Auditor crawls up to 500 pages, following links that begin at the starting URL. See [Include and Exclude Filters](../create-audit/filters.md) for more information. The starting URL can be up to 250 characters long.
 
    >[!NOTE]
    >
@@ -36,22 +36,23 @@ If desired, use the link on the bottom of the page to access a free, full-featur
    You can specify multiple emails by separating each address with a comma. The requestor is notified by default. Email addresses are validated in real time. If you enter an invalid address, your are notified on the screen.
 
    Each email is limited to no more than 250 characters, including the domain ending (for example, .com). 
-1. Specify Include Filters.
 
-   This field can contain exact URLs, partial URLs, or regular expressions. Use this field for criteria you want every URL to match. Any crawled URLs that do not match the Include Filter criteria are not included in the audit results.
+1. Specify [!UICONTROL Include Filters].
+
+   This field can contain exact URLs, partial URLs, or regular expressions. Use this field for criteria you want every URL to match. Any crawled URLs that do not match the [!UICONTROL Include Filter] criteria are not included in the audit results.
 
    You could enter directories you want the audit to scan. Or, you can perform cross-domain or self-referral auditing, where you need to start the audit on one domain and end on another. To do this, type in the domains you want to traverse; for complex URL patterns, use a regular expression.
 
    >[!NOTE]
    >
-   >If you include a page in your filters, but it's not connected to your starting URL, or Auditor scans 500 pages before reaching that page, the page won't be scanned and won't be included in the test results.
+   >If you include a page in your filters, but it's not connected to your starting URL, or Platform Auditor scans 500 pages before reaching that page, the page won't be scanned and won't be included in the test results.
 
    The include filters are limited to 1,000 characters per line.
 
    See [Include List](../create-audit/filters.md) for more information. 
 1. Specify Exclude Filters.
 
-   The Exclude List prevents URLs from being audited. Use exact URLs, partial URLs, or regular expressions, just as you would in the Include List.
+   The [!UICONTROL Exclude List] prevents URLs from being audited. Use exact URLs, partial URLs, or regular expressions, just as you would in the [!UICONTROL Include List].
 
    One common practice is to exclude a logout link if the audit has a user session (for example: `/logout`, meaning any URL containing the string `/logout`).
 

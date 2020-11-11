@@ -1,6 +1,6 @@
 ---
-description: This reference provides more information about the tests Auditor performs for tag presence.
-seo-description: This reference provides more information about the tests Auditor performs for tag presence.
+description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag presence.
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag presence.
 seo-title: Tag presence
 title: Tag presence
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
@@ -8,9 +8,9 @@ uuid: 91aa355b-7022-431c-9837-e108b5ce604d
 
 # Tag presence
 
-This reference provides more information about the tests Auditor performs for tag presence.
+This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag presence.
 
-Auditor evaluates whether the tag exists, and whether it's in the right place in your page code. 
+Platform Auditor evaluates whether the tag exists, and whether it's in the right place in your page code. 
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -24,12 +24,12 @@ Auditor evaluates whether the tag exists, and whether it's in the right place in
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - Code presence</b> </p> <p>Weight: 5 </p> </td> 
    <td colname="col2"> <p> The Advertising Cloud tag is not available in the DOM. </p> </td> 
-   <td colname="col3"> <p>Implement the Advertising Cloud tag using the Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Implement the Advertising Cloud tag using the Advertising Cloud extension for Adobe Experience Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - Segment Pixel Implemented</b> </p> <p>Weight: 5 </p> </td> 
    <td colname="col2"> <p> Upgrade your Advertising Cloud segment pixels to the new Advertising Cloud image-only tags. Using the deprecated AMO segment tags can result in data loss. </p> </td> 
-   <td colname="col3"> <p>Implement the Advertising Cloud segment pixel using the Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Implement the Advertising Cloud segment pixel using the Advertising Cloud extension for Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analytics - Loaded in DOM</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external"> Additional information</a> </p> </td> 
@@ -89,15 +89,15 @@ Auditor evaluates whether the tag exists, and whether it's in the right place in
     <!--
       1.0.5 
     --> <p><b> Launch - Library loaded</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Additional information</a> </p> </td> 
-   <td colname="col2"> <p> A global _satellite object was not found in the DOM. Launch is either not installed or failing to execute. </p> </td> 
-   <td colname="col3"> <p>Verify that the Launch library is implemented on the page and is not blocked by subsequent script activities. </p> </td> 
+   <td colname="col2"> <p> A global _satellite object was not found in the DOM. Platform Launch is either not installed or failing to execute. </p> </td> 
+   <td colname="col3"> <p>Verify that the Platform Launch library is implemented on the page and is not blocked by subsequent script activities. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch - Not have multiple embed scripts</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Additional information</a> </p> </td> 
-   <td colname="col2"> <p>There should not be multiple embed scripts loaded on the page. Production sites should only load one Launch library. </p> </td> 
+   <td colname="col2"> <p>There should not be multiple embed scripts loaded on the page. Production sites should only load one Platform Launch library. </p> </td> 
    <td colname="col3"> <p>Verify that only the production library is loading on the page. </p> </td> 
   </tr> 
   <tr> 
@@ -105,16 +105,16 @@ Auditor evaluates whether the tag exists, and whether it's in the right place in
     <!--
       1.0.5 
     --> <p><b>Launch - pageBottom callback exists in &lt;body&gt;</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Additional information</a> </p> </td> 
-   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Launch. </p> <p>This test fails if the <span class="codeph"> pageBottom </span>call isn't found at all on the page, or if it's in the <span class="codeph"> &lt;head&gt;</span> tag (or some other unexpected location). It will only pass if <span class="codeph"> pageBottom</span> is found somewhere within the <span class="codeph"> &lt;body&gt;</span> tag. If it's not on the page at all, it won't function and the other two <span class="codeph"> pageBottom</span> tests will also fail. </p> </td> 
-   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Launch functionality. </p> </td> 
+   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>This test fails if the <span class="codeph"> pageBottom </span>call isn't found at all on the page, or if it's in the <span class="codeph"> &lt;head&gt;</span> tag (or some other unexpected location). It will only pass if <span class="codeph"> pageBottom</span> is found somewhere within the <span class="codeph"> &lt;body&gt;</span> tag. If it's not on the page at all, it won't function and the other two <span class="codeph"> pageBottom</span> tests will also fail. </p> </td> 
+   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch - pageBottom callback should not exist when asynchronously deployed</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Additional information</a> </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Launch is asynchronously deployed. </p> </td> 
-   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Launch functionality. </p> </td> 
+   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
+   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 

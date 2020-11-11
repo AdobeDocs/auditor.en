@@ -1,6 +1,6 @@
 ---
-description: information about the Adobe Auditor tests
-seo-description: information about the Adobe Auditor tests
+description: information about the Adobe Experience Platform Auditor tests
+seo-description: information about the Adobe Experience Platform Auditor tests
 seo-title: Test rubric 1.0.1
 title: Test rubric 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
@@ -13,7 +13,7 @@ uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
 
 ## Alerts {#alerts}
 
-This reference provides more information about the alerts Auditor displays for tests. 
+This reference provides more information about the alerts Adobe Experience Platform Auditor displays for tests. 
 
 Alerts show issues you should be aware of, but that don't affect your score. These are best practice recommendations that, in some cases, may not apply to your implementation.
 
@@ -32,7 +32,7 @@ Alerts show issues you should be aware of, but that don't affect your score. The
       1.0.1 
     --> <p><b>Advertising Cloud - Correct Conversion Tag Implemented</b> </p> <p>Weight: 0 </p> </td> 
    <td colname="col2"> <p>Check whether the correct conversion tag is used. </p> <p> <p>Warning:  Using the deprecated TubeMogul conversion tags can result in data loss. </p> </p> </td> 
-   <td colname="col3"> <p>Upgrade your conversion pixels to the new Advertising Cloud image-only conversion tags. </p> <p>This can be most easily accomplished with the Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Upgrade your conversion pixels to the new Advertising Cloud image-only conversion tags. </p> <p>This can be most easily accomplished with the Advertising Cloud extension for Adobe Experience Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -40,7 +40,7 @@ Alerts show issues you should be aware of, but that don't affect your score. The
       1.0.1 
     --> <p><b>Advertising Cloud - Correct JS Tag Used</b> </p> <p>Weight: 0 </p> </td> 
    <td colname="col2"> <p>Advertising Cloud should use latest JavaScript tags. </p> </td> 
-   <td colname="col3"> <p>Upgrade your Advertising Cloud JavaScript to the latest version. Using the deprecated JavaScript versions can result in lost functionality. </p> <p>This can be accomplished more easily through the use of the Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Upgrade your Advertising Cloud JavaScript to the latest version. Using the deprecated JavaScript versions can result in lost functionality. </p> <p>This can be accomplished more easily through the use of the Advertising Cloud extension for Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -53,7 +53,7 @@ Alerts show issues you should be aware of, but that don't affect your score. The
       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Upgrade your Advertising Cloud pixels to the new Advertising Cloud image-only tags, which ensure you are taking advantage of the full Advertising Cloud functionality. </p> <p>This can be most easily accomplished with the Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Upgrade your Advertising Cloud pixels to the new Advertising Cloud image-only tags, which ensure you are taking advantage of the full Advertising Cloud functionality. </p> <p>This can be most easily accomplished with the Advertising Cloud extension for Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -61,7 +61,7 @@ Alerts show issues you should be aware of, but that don't affect your score. The
       1.0.1 
     --> <p><b>Advertising Cloud - Segment Pixels DSP Syncing Enabled</b> </p> <p>Weight: 0 </p> </td> 
    <td colname="col2"> <p>Check whether the TubeMogul segment pixel contains a DSP Syncing setting, and recommend that the setting be added to the pixel. </p> <p>The DSP Syncing setting is determined by the use of a query string parameter, so </p> <p>IF the tag is being fired to<span class="codeph"> ("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> OR <span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> OR <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>AND the tag contains the URL parameter <span class="codeph"> "sid=")</span> </p> <p>THEN check to see if the URL parameter <span class="codeph"> "cs=0"</span> or<span class="codeph"> "cs=1"</span> exists, and if not recommend that <span class="codeph"> "cs=1"</span> be added to those pixels so that the audience match rates can improve. </p> </td> 
-   <td colname="col3"> <p> Add the URL parameter <span class="codeph"> "cs=1"</span> to your Advertising Cloud pixels so that DSP Syncing can occur, which increases audience match rates. </p> <p>This can most easily be accomplished with the Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p> Add the URL parameter <span class="codeph"> "cs=1"</span> to your Advertising Cloud pixels so that DSP Syncing can occur, which increases audience match rates. </p> <p>This can most easily be accomplished with the Advertising Cloud extension for Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -98,7 +98,7 @@ Alerts show issues you should be aware of, but that don't affect your score. The
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>Launch should have a <span class="codeph"> pageBottom </span>callback function defined last in the body of the page if synchronously deployed </p> <p> <p>Note: It is best practice that the tag be the <i>last</i> tag in the <span class="codeph"> &lt;body&gt;</span>. If it's found within the <span class="codeph"> &lt;body&gt;</span> tag, it has a chance of functioning, but as it is not best practice, it could function incorrectly or with unexpected or undesired results. </p> </p> </td> 
+   <td colname="col2"> <p>Platform Launch should have a <span class="codeph"> pageBottom </span>callback function defined last in the body of the page if synchronously deployed </p> <p> <p>Note: It is best practice that the tag be the <i>last</i> tag in the <span class="codeph"> &lt;body&gt;</span>. If it's found within the <span class="codeph"> &lt;body&gt;</span> tag, it has a chance of functioning, but as it is not best practice, it could function incorrectly or with unexpected or undesired results. </p> </p> </td> 
    <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper DTM functionality. </p> </td> 
   </tr> 
   <tr> 
@@ -106,16 +106,16 @@ Alerts show issues you should be aware of, but that don't affect your score. The
     <!--
       1.0.1 
     --> <p><b>Launch - Self-Hosted</b> </p> <p>Weight: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Additional information</a> </p> </td> 
-   <td colname="col2"> <p>The Launch library is being hosted on Adobe's Akamai instance at <span class="filepath"> assets.adobedtm.com</span>. </p> <p>Self-hosting is the recommended approach for loading Launch because it provides greater control of website performance through cache control, reducing third-party script dependencies, and greater control of the publishing process. The Launch libraries can be hosted and managed through your own web hosting or CDN. </p> </td> 
-   <td colname="col3"> <p>Although Launch hosting via the Akamai CDN works in most cases, it is recommended that self-hosting be implemented as the first step in improving page performance. </p> </td> 
+   <td colname="col2"> <p>The Platform Launch library is being hosted on Adobe's Akamai instance at <span class="filepath"> assets.adobedtm.com</span>. </p> <p>Self-hosting is the recommended approach for loading Platform Launch because it provides greater control of website performance through cache control, reducing third-party script dependencies, and greater control of the publishing process. The Platform Launch libraries can be hosted and managed through your own web hosting or CDN. </p> </td> 
+   <td colname="col3"> <p>Although Platform Launch hosting via the Akamai CDN works in most cases, it is recommended that self-hosting be implemented as the first step in improving page performance. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - should be asynchronously deployed</b> </p> <p>Weight: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Additional information</a> </p> </td> 
-   <td colname="col2"> <p>Launch should be asynchronously deployed for optimal performance. </p> </td> 
-   <td colname="col3"> <p>Include the async parameter in the inline script to ensure proper async Launch functionality </p> </td> 
+   <td colname="col2"> <p>Platform Launch should be asynchronously deployed for optimal performance. </p> </td> 
+   <td colname="col3"> <p>Include the async parameter in the inline script to ensure proper async Platform Launch functionality </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -130,9 +130,9 @@ Alerts show issues you should be aware of, but that don't affect your score. The
 
 ## Configuration {#configuration}
 
-This reference provides more information about the tests Auditor performs for configuration. 
+This reference provides more information about the tests Platform Auditor performs for configuration. 
 
-Configuration tests scan for specific settings, values, or potential conflicts in your implementation. Auditor evaluates the tags against other rules and recommended best practices.
+Configuration tests scan for specific settings, values, or potential conflicts in your implementation. Platform Auditor evaluates the tags against other rules and recommended best practices.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
  <thead> 
@@ -212,8 +212,8 @@ Configuration tests scan for specific settings, values, or potential conflicts i
     <!--
       1.0.1 
     --> <p><b>Launch - Latest Version</b> </p> <p>Weight: 2 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Additional information</a> </p> </td> 
-   <td colname="col2"> <p>These pages are not running the latest version of the Launch code library (Turbine). Code libraries that power Experience Cloud technologies are constantly being updated and tweaked in order to take advantage of performance improvements and provide the latest features. </p> </td> 
-   <td colname="col3"> <p> Update the Launch library by rebuilding and publishing the Launch library. </p> </td> 
+   <td colname="col2"> <p>These pages are not running the latest version of the Platform Launch code library (Turbine). Code libraries that power Experience Cloud technologies are constantly being updated and tweaked in order to take advantage of performance improvements and provide the latest features. </p> </td> 
+   <td colname="col3"> <p> Update the Platform Launch library by rebuilding and publishing the Platform Launch library. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -244,9 +244,9 @@ Configuration tests scan for specific settings, values, or potential conflicts i
 
 ## Tag consistency {#tag-consistency}
 
-This reference provides more information about the tests Auditor performs for tag consistency. 
+This reference provides more information about the tests Platform Auditor performs for tag consistency. 
 
-Auditor's consistency tests look for inconsistencies across all scanned pages. These are values or configurations that should be the same across all pages on the site to ensure accurate data collection.
+Platform Auditor's consistency tests look for inconsistencies across all scanned pages. These are values or configurations that should be the same across all pages on the site to ensure accurate data collection.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
@@ -270,9 +270,9 @@ Auditor's consistency tests look for inconsistencies across all scanned pages. T
 
 ## Tag presence {#tag-presence}
 
-This reference provides more information about the tests Auditor performs for tag presence. 
+This reference provides more information about the tests Platform Auditor performs for tag presence. 
 
-Auditor evaluates whether the tag exists, and whether it's in the right place in your page code. 
+Platform Auditor evaluates whether the tag exists, and whether it's in the right place in your page code. 
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -289,7 +289,7 @@ Auditor evaluates whether the tag exists, and whether it's in the right place in
       1.0.1 
     --> <p><b>Advertising Cloud - Code presence</b> </p> <p>Weight: 5 </p> </td> 
    <td colname="col2"> <p> The Advertising Cloud tag is not available in the DOM. </p> </td> 
-   <td colname="col3"> <p>Implement the Advertising Cloud tag using the Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Implement the Advertising Cloud tag using the Advertising Cloud extension for Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -297,7 +297,7 @@ Auditor evaluates whether the tag exists, and whether it's in the right place in
       1.0.1 
     --> <p><b>Advertising Cloud - Segment Pixel Implemented</b> </p> <p>Weight: 5 </p> </td> 
    <td colname="col2"> <p> Upgrade your Advertising Cloud segment pixels to the new Advertising Cloud image-only tags. Using the deprecated AMO segment tags can result in data loss. </p> </td> 
-   <td colname="col3"> <p>Implement the Advertising Cloud segment pixel using the Advertising Cloud Launch Extension. </p> </td> 
+   <td colname="col3"> <p>Implement the Advertising Cloud segment pixel using the Advertising Cloud extension for Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -373,14 +373,14 @@ Auditor evaluates whether the tag exists, and whether it's in the right place in
       1.0.1 
     --> <p><b> Launch - Library loaded</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Additional information</a> </p> </td> 
    <td colname="col2"> <p> A global _satellite object was not found in the DOM. Launch is either not installed or failing to execute. </p> </td> 
-   <td colname="col3"> <p>Verify that the Launch library is implemented on the page and is not blocked by subsequent script activities. </p> </td> 
+   <td colname="col3"> <p>Verify that the Platform Launch library is implemented on the page and is not blocked by subsequent script activities. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - Not have multiple embed scripts</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Additional information</a> </p> </td> 
-   <td colname="col2"> <p>There should not be multiple embed scripts loaded on the page. Production sites should only load one Launch library. </p> </td> 
+   <td colname="col2"> <p>There should not be multiple embed scripts loaded on the page. Production sites should only load one Platform Launch library. </p> </td> 
    <td colname="col3"> <p>Verify that only the production library is loading on the page. </p> </td> 
   </tr> 
   <tr> 
@@ -388,16 +388,16 @@ Auditor evaluates whether the tag exists, and whether it's in the right place in
     <!--
       1.0.1 
     --> <p><b>Launch - pageBottom callback exists in &lt;body&gt;</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Additional information</a> </p> </td> 
-   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Launch. </p> <p>This test fails if the <span class="codeph"> pageBottom </span>call isn't found at all on the page, or if it's in the <span class="codeph"> &lt;head&gt;</span> tag (or some other unexpected location). It will only pass if <span class="codeph"> pageBottom</span> is found somewhere within the <span class="codeph"> &lt;body&gt;</span> tag. If it's not on the page at all, it won't function and the other two <span class="codeph"> pageBottom</span> tests will also fail. </p> </td> 
-   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Launch functionality. </p> </td> 
+   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>This test fails if the <span class="codeph"> pageBottom </span>call isn't found at all on the page, or if it's in the <span class="codeph"> &lt;head&gt;</span> tag (or some other unexpected location). It will only pass if <span class="codeph"> pageBottom</span> is found somewhere within the <span class="codeph"> &lt;body&gt;</span> tag. If it's not on the page at all, it won't function and the other two <span class="codeph"> pageBottom</span> tests will also fail. </p> </td> 
+   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - pageBottom callback should not exist when asynchronously deployed</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html" format="html" scope="external"> Additional information</a> </p> </td> 
-   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Launch is asynchronously deployed. </p> </td> 
-   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Launch functionality. </p> </td> 
+   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
+   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 

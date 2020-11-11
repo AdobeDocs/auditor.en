@@ -1,6 +1,6 @@
 ---
-description: information about the Adobe Auditor tests
-seo-description: information about the Adobe Auditor tests
+description: information about the Adobe Experience Platform Auditor tests
+seo-description: information about the Adobe Experience Platform Auditor tests
 seo-title: Test rubric 0.0.8
 title: Test rubric 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
@@ -16,7 +16,7 @@ uuid: c62b7169-a650-4650-876f-c254eb57cb25
 
 ## Alerts {#alerts}
 
-This reference provides more information about the alerts Auditor displays for tests. 
+This reference provides more information about the alerts Adobe Experience Platform Auditor displays for tests. 
 
 Alerts show issues you should be aware of, but that don't affect your score.
 
@@ -32,7 +32,7 @@ Alerts show issues you should be aware of, but that don't affect your score.
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - Correct Conversion Tag Implemented</b> </p> <p>Weight: 0 </p> </td> 
     <td colname="col2"> <p>Check whether the correct conversion tag is used. </p> <p> <p>Warning:  Using the deprecated TubeMogul conversion tags can result in data loss. </p> </p> </td> 
-    <td colname="col3"> <p>Upgrade your conversion pixels to the new Advertising Cloud image-only conversion tags. </p> <p>This can be most easily accomplished with the Advertising Cloud Launch Extension. </p> </td> 
+    <td colname="col3"> <p>Upgrade your conversion pixels to the new Advertising Cloud image-only conversion tags. </p> <p>This can be most easily accomplished with the Advertising Cloud extension for Adobe Experience Platform Launch. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - Image-only tag</b> </p> <p>Weight: 0 </p> </td> 
@@ -42,12 +42,12 @@ Alerts show issues you should be aware of, but that don't affect your score.
        <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
        <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
       </ul> </p> </td> 
-    <td colname="col3"> <p>Upgrade your Advertising Cloud pixels to the new Advertising Cloud image-only tags, which ensure you are taking advantage of the full Advertising Cloud functionality. </p> <p>This can be most easily accomplished with the Advertising Cloud Launch Extension. </p> </td> 
+    <td colname="col3"> <p>Upgrade your Advertising Cloud pixels to the new Advertising Cloud image-only tags, which ensure you are taking advantage of the full Advertising Cloud functionality. </p> <p>This can be most easily accomplished with the Advertising Cloud extension for Platform Launch. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - Segment Pixels DSP Syncing Enabled</b> </p> <p>Weight: 0 </p> </td> 
     <td colname="col2"> <p>Check whether the TubeMogul segment pixel contains a DSP Syncing setting, and recommend that the setting be added to the pixel. </p> <p>The DSP Syncing setting is determined by the use of a query string parameter, so </p> <p>IF the tag is being fired to<span class="codeph"> ("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> OR <span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> OR <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>AND the tag contains the URL parameter <span class="codeph"> "sid=")</span> </p> <p>THEN check to see if the URL parameter <span class="codeph"> "cs=0"</span> or<span class="codeph"> "cs=1"</span> exists, and if not recommend that <span class="codeph"> "cs=1"</span> be added to those pixels so that the audience match rates can improve. </p> </td> 
-    <td colname="col3"> <p> Add the URL parameter <span class="codeph"> "cs=1"</span> to your Advertising Cloud pixels so that DSP Syncing can occur, which increases audience match rates. </p> <p>This can most easily be accomplished with the Advertising Cloud Launch Extension. </p> </td> 
+    <td colname="col3"> <p> Add the URL parameter <span class="codeph"> "cs=1"</span> to your Advertising Cloud pixels so that DSP Syncing can occur, which increases audience match rates. </p> <p>This can most easily be accomplished with the Advertising Cloud extension for Platform Launch. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - pageBottom callback placement</b> </p> <p>Weight: 0 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Additional information</a> </p> 
@@ -74,9 +74,9 @@ Alerts show issues you should be aware of, but that don't affect your score.
 
 ## Configuration {#configuration}
 
-This reference provides more information about the tests Auditor performs for configuration. 
+This reference provides more information about the tests Platform Auditor performs for configuration. 
 
-Auditor evaluates the tags against other rules and recommended best practices.
+Platform Auditor evaluates the tags against other rules and recommended best practices.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
   <thead> 
@@ -154,9 +154,9 @@ Auditor evaluates the tags against other rules and recommended best practices.
 
 ## Tag consistency {#tag-consistency}
 
-This reference provides more information about the tests Auditor performs for tag consistency. 
+This reference provides more information about the tests Platform Auditor performs for tag consistency. 
 
-Auditor evaluates whether the tags are consistent across URLs.
+Platform Auditor evaluates whether the tags are consistent across URLs.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
   <thead> 
@@ -179,9 +179,9 @@ Auditor evaluates whether the tags are consistent across URLs.
 
 ## Tag presence {#tag-presence}
 
-This reference provides more information about the tests Auditor performs for tag presence. 
+This reference provides more information about the tests Platform Auditor performs for tag presence. 
 
-Auditor evaluates whether the tag exists, and whether it's in the right place in your page code, and so on.
+Platform Auditor evaluates whether the tag exists, and whether it's in the right place in your page code, and so on.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
   <thead> 
@@ -195,12 +195,12 @@ Auditor evaluates whether the tag exists, and whether it's in the right place in
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - Code presence</b> </p> <p>Weight: 5 </p> </td> 
     <td colname="col2"> <p> The Advertising Cloud tag is not available in the DOM. </p> </td> 
-    <td colname="col3"> <p>Implement the Advertising Cloud tag using the Advertising Cloud Launch Extension. </p> </td> 
+    <td colname="col3"> <p>Implement the Advertising Cloud tag using the Advertising Cloud extension for Platform Launch. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - Segment Pixel Implemented</b> </p> <p>Weight: 5 </p> </td> 
     <td colname="col2"> <p> Upgrade your Advertising Cloud segment pixels to the new Advertising Cloud image-only tags. Using the deprecated AMO segment tags can result in data loss. </p> </td> 
-    <td colname="col3"> <p>Implement the Advertising Cloud segment pixel using the Advertising Cloud Launch Extension. </p> </td> 
+    <td colname="col3"> <p>Implement the Advertising Cloud segment pixel using the Advertising Cloud extension for Platform Launch. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Analytics - Loaded in DOM</b> </p> <p>Weight: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html" format="https" scope="external"> Additional information</a> </p> </td> 
