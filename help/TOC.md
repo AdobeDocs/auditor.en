@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: adobe experience platform auditor
+product: auditor
 sub-product: adobe experience platform auditor
 audience: end-user
 user-guide-title: Experience Platform Auditor Help
