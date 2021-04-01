@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: auditor
 sub-product: adobe experience platform auditor
 audience: end-user
