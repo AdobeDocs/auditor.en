@@ -4,9 +4,8 @@ seo-description: information about the Adobe Experience Platform Auditor tests
 seo-title: Test rubric 1.0.1
 title: Test rubric 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-
+exl-id: 115c762c-fce9-465f-a040-1ef81d4ad3f6
 ---
-
 # Test rubric 1.0.1{#test-rubric}
 
 ## Test rubric 1.0.1 {#topic-25ed23afdfaf4a12b149ff276965b043}
@@ -420,4 +419,3 @@ Platform Auditor evaluates whether the tag exists, and whether it's in the right
   </tr> 
  </tbody> 
 </table>
-

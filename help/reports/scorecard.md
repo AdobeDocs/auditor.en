@@ -4,8 +4,8 @@ seo-description: After you run a test, the scorecard shows information about an 
 seo-title: Scorecard
 title: Scorecard
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
+exl-id: a2ccaf7d-744f-42f0-8193-1c6a93f7a09a
 ---
-
 # Scorecard{#scorecard}
 
 After you run a test, the scorecard shows information about an audit.
@@ -55,4 +55,4 @@ Click the categories across the top of the screen to see the issues found in eac
 
 You can view lists of the URLS that passed or failed your test.
 
-From the scorecard, click a test name or the **[!UICONTROL See All]** link under each category heading. This takes you to the details of the tests. For each test, you can see the test description and a list of any urls that failed and passed. This information is also included in downloaded reports. 
+From the scorecard, click a test name or the **[!UICONTROL See All]** link under each category heading. This takes you to the details of the tests. For each test, you can see the test description and a list of any urls that failed and passed. This information is also included in downloaded reports.

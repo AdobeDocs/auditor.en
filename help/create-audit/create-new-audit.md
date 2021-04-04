@@ -4,8 +4,8 @@ seo-description: Create a new audit in Adobe Experience Platform Auditor
 seo-title: Create a new audit in Adobe Experience Platform Auditor
 title: Create a new audit in Adobe Experience Platform Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
+exl-id: 1c4eed8e-4d49-49af-95c5-df13c9f13e4a
 ---
-
 # Create a new audit{#create-a-new-audit}
 
 >[!NOTE]

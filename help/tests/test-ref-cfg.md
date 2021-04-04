@@ -4,8 +4,8 @@ seo-description: This reference provides more information about the tests Adobe 
 seo-title: Configuration
 title: Configuration
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
+exl-id: e331d874-09f5-4a31-ad8c-6ee5d0849245
 ---
-
 # Configuration
 
 This reference provides more information about the tests Adobe Experience Platform Auditor performs for configuration.
@@ -119,4 +119,3 @@ Configuration tests scan for specific settings, values, or potential conflicts i
   </tr> 
  </tbody> 
 </table>
-

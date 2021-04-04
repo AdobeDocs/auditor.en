@@ -4,8 +4,8 @@ seo-description: This reference provides more information about the tests Adobe 
 seo-title: Tag presence
 title: Tag presence
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
+exl-id: a6ac4d95-2f96-4abb-b39b-4dd0d8df5fe8
 ---
-
 # Tag presence
 
 This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag presence.

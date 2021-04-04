@@ -4,8 +4,8 @@ seo-description: Include filters restrict what links an audit can crawl from the
 seo-title: Include and Exclude filters
 title: Include and Exclude filters
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
+exl-id: d6bb1191-62ce-4292-913d-8c42b9136626
 ---
-
 # Include and Exclude filters{#include-and-exclude-filters}
 
 Include filters restrict what links an audit can crawl from the Starting URL. Exclude filters prevent an audit from crawling links.
@@ -101,4 +101,4 @@ While creating your audit, click **[!UICONTROL Test Advanced Filters]**. Enter y
 
 ## ObservePoint documentation {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-This article was developed in cooperation with ObservePoint. For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/. 
+This article was developed in cooperation with ObservePoint. For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.

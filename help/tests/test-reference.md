@@ -4,9 +4,8 @@ seo-description: This reference provides more information about the tests Adobe 
 seo-title: Test reference
 title: Test reference
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-
+exl-id: b368bf43-2007-4f98-a965-ed8fc07c0fdf
 ---
-
 # Test reference{#test-reference}
 
 This reference provides more information about the tests Adobe Experience Platform Auditor performs.

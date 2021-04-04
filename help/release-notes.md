@@ -4,8 +4,8 @@ seo-description: Adobe Experience Platform Auditor Release Notes
 seo-title: Adobe Experience Platform Auditor release notes
 title: Adobe Experience Platform Auditor release notes
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
+exl-id: 7c8c55ed-6211-446b-9182-2e9b49dd117d
 ---
-
 # Adobe Experience Platform Auditor release notes{#auditor-release-notes}
 
 ## February 5, 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
@@ -66,4 +66,4 @@ With Platform Auditor, you can:
 
 By empowering you to troubleshoot and correct your own implementations, Platform Auditor gives you greater control over your implementation tags and, therefore, your data. This reduces the need to contact Customer Care with questions about your implementation tags.
 
-Platform Auditor has been developed as a cooperative effort between Adobe and ObservePoint. Platform Auditor users may use limited ObservePoint functionality for no additional cost. To use Platform Auditor, you must opt-in to communications from ObservePoint. 
+Platform Auditor has been developed as a cooperative effort between Adobe and ObservePoint. Platform Auditor users may use limited ObservePoint functionality for no additional cost. To use Platform Auditor, you must opt-in to communications from ObservePoint.

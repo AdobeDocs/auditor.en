@@ -4,8 +4,8 @@ seo-description: Common questions and answers about Adobe Experience Platform Au
 seo-title: Adobe Experience Platform Auditor FAQ
 title: Adobe Experience Platform Auditor FAQ
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
+exl-id: 75ab4497-5822-4f64-9b6d-6cbf13687e8d
 ---
-
 # Adobe Experience Platform Auditor FAQ{#auditor-faq}
 
 This article contains the answers to frequently asked questions about Adobe Experience Platform Auditor.
@@ -130,4 +130,4 @@ This functionality is currently unsupported without the full ObservePoint offeri
 
 The crawling is performed by ObservePoint, so the same IP addresses are used.
 
-See the [ObservePoint documentation](https://help.observepoint.com/articles/2312494-observepoint-whitelisting-and-proxy-list) for more details. 
+See the [ObservePoint documentation](https://help.observepoint.com/articles/2312494-observepoint-whitelisting-and-proxy-list) for more details.

@@ -4,8 +4,8 @@ seo-description: The Audit List page shows information about all of your audits.
 seo-title: Audit List page
 title: Audit List page
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
+exl-id: 2ba22dc7-f296-461e-90d4-1cb330bcde24
 ---
-
 # Audit List page{#audit-list-page}
 
 The Audit List page shows information about all of your audits.

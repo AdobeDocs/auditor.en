@@ -4,8 +4,8 @@ seo-description: Technical documentation for Adobe Experience Platform Auditor.
 seo-title: Technical documentation for Adobe Experience Platform Auditor 
 title: Overview of Adobe Experience Platform Auditor - Tech Docs
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
+exl-id: 326ae443-2974-4f0c-8c16-bfd2b8a6a70c
 ---
-
 # Adobe Experience Platform Auditor Overview {#adobe-experience-cloud-auditor}
 
 Adobe Experience Platform Auditor is a service of the Adobe Experience Platform that was co-developed with [ObservePoint](https://www.observepoint.com/), experts in validating digital implementations. This guide contains technical documentation and self-help for Platform Auditor.
@@ -34,4 +34,4 @@ If you need help getting started, have questions, or would like to suggest or vo
 
 ## Release information {#section-be3e331a123d40f185aa59f23f69355e}
 
-For information about the most recent release, see [Platform Auditor Release Notes](release-notes.md). 
+For information about the most recent release, see [Platform Auditor Release Notes](release-notes.md).

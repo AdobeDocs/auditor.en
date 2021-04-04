@@ -4,9 +4,8 @@ seo-description: This reference provides more information about the alerts Adobe
 seo-title: Alerts
 title: Alerts
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-
+exl-id: 9e7ade9b-6f3c-4f1f-87b1-5dbaed63ae36
 ---
-
 # Alerts{#alerts}
 
 This reference provides more information about the alerts Adobe Experience Platform Auditor displays for tests.
@@ -123,4 +122,3 @@ Alerts show issues you should be aware of, but that don't affect your score. The
   </tr> 
  </tbody> 
 </table>
-

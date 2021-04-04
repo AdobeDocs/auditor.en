@@ -4,9 +4,8 @@ seo-description: Get started with Adobe Experience Platform Auditor
 seo-title: Getting started
 title: Getting started
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-
+exl-id: 597413c9-8725-4745-bd89-cdc52848b0a0
 ---
-
 # Getting started{#getting-started}
 
 ## Getting started {#task-1024e94b5948413295c9698e62165a04}
